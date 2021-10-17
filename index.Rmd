@@ -27,14 +27,14 @@ In 1899, the first railroads in South Korea were built, connecting Seoul to the 
 [![](thumbnails/georeference_seoul.png)](https://lizcormack.github.io/vis-portfolio//fullsize/georeference_seoul.pdf){target="_blank"}
 
 # Adding Points & Polygons to Maps
-Here are two maps of San Luis Obispo, California. I might include some text here as well.
+A description of this section.
 
-## Clockboard Map
-This map demonstrates the following skills:
+## Chicago Transit Access
+The Chicago Enterprise Zones program offers state and local tax incentives to encourage companies to locate their business in depressed areas of the city. The program aims to stimulate economic and neighborhood growth in six designated zones. Exploring these zones through a transportation lens reveals a substantial gap in transportation investment in these zones that could limit the potential of the City’s investment in the program.
 
-* Aggregating point data to a layer of polygons
+As the visualization below illustrates, many of these zones are located in regions of the city with limited or no transit stops. For example, Zone 3, on the South Side of Chicago, one of the largest Enterprise Zones identified in the program, is not connected to any transit stop on Chicago’s ‘L’ line. The City of Chicago’s Enterprise Zones program must consider transit access in the six zones in order to be effective.
 
-[![](thumbnails/clockboard.jpg)](https://lizcormack.github.io/vis-portfolio//fullsize/clockboard.pdf){target="_blank"}
+[![](thumbnails/chicagoTransit.png)](https://lizcormack.github.io/vis-portfolio//fullsize/chicagoTransit.png){target="_blank"}
 
 ## Isochrones
 This map shows isochrones based on transit travel times to the nearest school. It demonstrates the following skills:
