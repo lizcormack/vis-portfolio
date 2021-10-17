@@ -12,21 +12,22 @@ knitr::opts_chunk$set(echo = TRUE)
 
 # Welcome
 
-## Hello there! This site is in progress.
+## Hello there!
 
 You've stumbled on Liz Cormack's first semester exploration of spacial visualization at the Harvard Graduate School of Design in Boston, Massachusetts. The majority of the work here was conducted in VIS 2127: Spacial Analysis with Professor Carole Voulgaris, a transportation planner whose work explores how people decide to travel through cities and why, and how the planning field uses quantitative data to influence that behavior. 
 
 This is the very beginning of my journey with these concepts, including R, mapping, and thinking about design in three-dimensional space and place. If you have any questions, get in touch at lizcormack[at]gsd.harvard.edu. 
 
-# Maps of Boston
-Here are two maps of Boston. I might include some text here about this set of maps.
+# Georeferencing Print Maps
+Georeferencing is the process of adding geographic coordinate data to a raster image, such as a scanned map, so that it appears in the correct place in a GIS tool. Using ArcGIS, we georeferenced maps from the fabulous [Harvard Map Collection.](https://library.harvard.edu/libraries/harvard-map-collection)
 
-## Interactive Map
-This interactive map demonstrates the following skills: 
+## Seoul, South Korea
+In 1899, the first railroads in South Korea were built, connecting Seoul to the surrounding region with modern speed. This map, created a year later, shows Seoul on the cusp of major transformation that would quadruple the city's size and extend it beyond the Han river in the south.
 
-* Displaying data on an interactive map
+[![](thumbnails/georeference_seoul.png)](https://lizcormack.github.io/vis-portfolio//fullsize/georeference_seoul.pdf){target="_blank"}
 
-[![](thumbnails/Boston_interactive.png)](https://lizcormack.github.io/vis-portfolio//fullsize/inter_black.html){target="_blank"}
+# Adding Points & Polygons to Maps
+Here are two maps of San Luis Obispo, California. I might include some text here as well.
 
 ## Clockboard Map
 This map demonstrates the following skills:
@@ -34,9 +35,6 @@ This map demonstrates the following skills:
 * Aggregating point data to a layer of polygons
 
 [![](thumbnails/clockboard.jpg)](https://lizcormack.github.io/vis-portfolio//fullsize/clockboard.pdf){target="_blank"}
-
-# Maps of San Luis Obispo
-Here are two maps of San Luis Obispo, California. I might include some text here as well.
 
 ## Isochrones
 This map shows isochrones based on transit travel times to the nearest school. It demonstrates the following skills:
