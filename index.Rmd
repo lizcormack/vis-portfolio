@@ -10,15 +10,13 @@ output:
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-# Welcome
-
-## Hello there!
+# Hello There!
 
 You've stumbled on Liz Cormack's first semester exploration of spacial visualization at the Harvard Graduate School of Design in Boston, Massachusetts. The majority of the work here was conducted in VIS 2127: Spacial Analysis with Professor Carole Voulgaris, a transportation planner whose work explores how people decide to travel through cities and why, and how the planning field uses quantitative data to influence that behavior. 
 
 This is the very beginning of my journey with these concepts, including R, mapping, and thinking about design in three-dimensional space and place. If you have any questions, get in touch at lizcormack[at]gsd.harvard.edu. 
 
-# Georeferencing Print Maps
+# Georeferencing
 Georeferencing is the process of adding geographic coordinate data to a raster image, such as a scanned map, so that it appears in the correct place in a GIS tool. Using ArcGIS, we georeferenced maps from the fabulous [Harvard Map Collection.](https://library.harvard.edu/libraries/harvard-map-collection)
 
 ## Seoul, South Korea
@@ -26,7 +24,7 @@ In 1899, the first railroads in South Korea were built, connecting Seoul to the 
 
 [![](thumbnails/georeference_seoul.png)](https://lizcormack.github.io/vis-portfolio//fullsize/georeference_seoul.pdf){target="_blank"}
 
-# Adding Points & Polygons to Maps
+# Exploring Point + Polygon Data
 A description of this section.
 
 ## Chicago Transit Access
@@ -36,15 +34,15 @@ As the visualization below illustrates, many of these zones are located in regio
 
 [![](thumbnails/chicagoTransit.png)](https://lizcormack.github.io/vis-portfolio//fullsize/chicagoTransit.png){target="_blank"}
 
-## Isochrones
-This map shows isochrones based on transit travel times to the nearest school. It demonstrates the following skills:
+## Boston Hospital Density
+Boston is a world capital of medicine, and it was intersting to look at the distribution of its 30+ hospitals. Hospitals in Boston appear to exist in dense clusters, and are absent from some Boston neighborhoods, most notably East Boston, which is also separated from the Boston mainland and can only access hospitals via a few tunnels.
 
-* Displaying multiple vector layers on the same map
-* Calculating and displaying accessibility, based on travel time
+[![](thumbnails/bostonHospitals.png)](https://lizcormack.github.io/vis-portfolio//fullsize/hospital density.pdf){target="_blank"}
 
-[![](thumbnails/SLO_isochrone.png)](https://lizcormack.github.io/vis-portfolio//fullsize/SLO_schools.pdf){target="_blank"}
+## Point Distance Map
+Insert description here.
 
-## Accessibility
+# Accessibility & Interaction
 This map shows accessibility based on a distance-decay function of the walking time to the nearest transit stop. It demonstrates the following skills:
 
 * Displaying multiple vector layers on the same map
