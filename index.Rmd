@@ -25,7 +25,6 @@ In 1899, the first railroads in South Korea were built, connecting Seoul to the 
 [![](thumbnails/georeference_seoul.png)](https://lizcormack.github.io/vis-portfolio//fullsize/Georeference_Seoul.pdf){target="_blank"}
 
 # Exploring Point + Polygon Data
-A description of this section.
 
 ## Chicago Transit Access
 The Chicago Enterprise Zones program offers state and local tax incentives to encourage companies to locate their business in depressed areas of the city. The program aims to stimulate economic and neighborhood growth in six designated zones. Exploring these zones through a transportation lens reveals a substantial gap in transportation investment in these zones that could limit the potential of the City’s investment in the program.
@@ -37,23 +36,23 @@ As the visualization below illustrates, many of these zones are located in regio
 ## Boston Hospital Density
 Boston is a world capital of medicine, and it was intersting to look at the distribution of its 30+ hospitals. Hospitals in Boston appear to exist in dense clusters, and are absent from some Boston neighborhoods, most notably East Boston, which is also separated from the Boston mainland and can only access hospitals via a few tunnels.
 
-[![](thumbnails/bostonHospitals.png)](https://lizcormack.github.io/vis-portfolio//fullsize/hospital density.pdf){target="_blank"}
+[![](thumbnails/bostonHospitals.png)](https://lizcormack.github.io/vis-portfolio//fullsize/hospitalDensity.pdf){target="_blank"}
 
-## Point Distance Map
-Insert description here.
+## Boston Hospital Proximity to Open Space
+After exploring hospital density, our group wanted to assess how many Boston hospitals were within short walking distance of open space, an emerging factor in health and recovery. By creating a 0.1 mile buffer around the open space polygons, then measuring how many hospitals fell within that buffer, were discovered that most Boston hospitals are within close proximity to open space. Further analysis might evaluate the quality of that open space, and what percentage of hospital patients have a 'direct line of sight' to greenery, which recent studies have found improves recovery time.
 
-Insert map here...
+[![](thumbnails/bostonOpenspace.png)](https://lizcormack.github.io/vis-portfolio//fullsize/bostonOpenspace.pdf){target="_blank"}
 
 # Accessibility & Interaction
-Introduction to this section.
 
 ## Accessibility Map
-Insert description.
+An accessibility map depicts the number of options of a given resource (like grocery stores) within a certain travel radius. When we explored multiple ways of visualizing pedestrian access to grocery stores, including travel time matrix and isochrone maps of walking distance, they visualized the same data, but to very different effect. This accessibility map highlights the limited pedestrian access to grocery stores in the city quite clearly.
 
-Insert map here...
+[![](thumbnails/portlandGrocery.png)](https://lizcormack.github.io/vis-portfolio//fullsize/portlandGrocery.pdf){target="_blank"}
 
 ## Interactive Map
-Click the image below to open the intactive map.
+Our final project for this course was to create an interactive map using U.S. Census Data. It was fascinating to explore the wealth of census data available (from the 2010 census, since the 2020 data is not yet accessible via R). As a UX Design by training, I'm really looking forward to further exploring the power of interactive maps to inspire and pursuade. Click the image below to open the interactive map.
 
 [![](thumbnails/houston_income.png)](https://lizcormack.github.io/vis-portfolio//fullsize/houston_income.html){target="_blank"}
 
+## Thanks for reading!
